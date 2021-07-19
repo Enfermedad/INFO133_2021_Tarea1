@@ -1,0 +1,27 @@
+files{
+_id:
+fecha: string
+latitud: int
+longitud :int
+exterior: bin
+categoria: int
+data : binary data
+usuario:
+	{rut: string
+	nombre: string
+	apellido: string
+}
+}
+
+sources{
+_id:
+nombre:string
+archivos: [string]
+}
+
+users{
+_id:
+nombre:string
+apellido:string
+rut:string
+}
